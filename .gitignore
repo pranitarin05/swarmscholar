@@ -1,0 +1,26 @@
+# secrets - NEVER commit
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# run artifacts and cache
+data/runs/
+data/cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+server_pid.txt
+uvicorn_out.txt
+uvicorn_err.txt
+demo_record_*.txt
+.pytest_cache/
